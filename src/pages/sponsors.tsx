@@ -139,9 +139,7 @@ export default async function SponsorsPage() {
             <div className="grid grid-cols-1 gap-3 lg:grid-cols-3">
               <div className="space-y-4 rounded-lg border-2 border-yellow-500 p-5 lg:p-10">
                 <div className="space-y-2 lg:self-center">
-                  <h4 className="text-xl font-bold lg:text-3xl">
-                    ゴールドスポンサー
-                  </h4>
+                  <h4 className="text-xl font-bold lg:text-3xl">GOLD</h4>
                   <p>
                     <span className="mr-1 text-4xl font-semibold lg:text-6xl">
                       60
@@ -161,9 +159,7 @@ export default async function SponsorsPage() {
 
               <div className="space-y-4 rounded-lg border-2 border-zinc-500 p-5 lg:p-10">
                 <div className="space-y-2 lg:self-center">
-                  <h4 className="text-xl font-bold lg:text-3xl">
-                    シルバースポンサー
-                  </h4>
+                  <h4 className="text-xl font-bold lg:text-3xl">SILVER</h4>
                   <p>
                     <span className="mr-1 text-4xl font-semibold lg:text-6xl">
                       30
@@ -182,9 +178,7 @@ export default async function SponsorsPage() {
 
               <div className="space-y-4 rounded-lg border-2 border-amber-700 p-5 lg:p-10">
                 <div className="space-y-2">
-                  <h4 className="text-xl font-bold lg:text-3xl">
-                    ブロンズスポンサー
-                  </h4>
+                  <h4 className="text-xl font-bold lg:text-3xl">BRONZE</h4>
                   <p>
                     <span className="mr-1 text-4xl font-semibold lg:text-6xl">
                       10
@@ -242,7 +236,7 @@ export default async function SponsorsPage() {
                     飲食スポンサー
                   </h4>
                 </div>
-                <ul className="list-disc space-y-2 px-3 text-sm">
+                <ul className="list-disc space-y-2 px-3 text-sm lg:text-base">
                   <li>connpassイベントページにロゴ掲載</li>
                   <li>会社紹介トーク</li>
                   <li>イベント時のノベルティ配布権利</li>
