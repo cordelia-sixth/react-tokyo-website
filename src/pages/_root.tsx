@@ -4,7 +4,7 @@ function gtag() {
   window.dataLayer.push(arguments);
 }
 gtag("js", new Date());
-gtag("config", "G-VQNGS1YC35");
+gtag("config", "G-35FY2D61LB");
 `;
 
 export default async function RootElement({
@@ -17,7 +17,7 @@ export default async function RootElement({
       <head>
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-VQNGS1YC35"
+          src="https://www.googletagmanager.com/gtag/js?id=G-35FY2D61LB"
         ></script>
       </head>
       <body className="has-[#sp-menu[data-expanded='true']]:overflow-hidden">
